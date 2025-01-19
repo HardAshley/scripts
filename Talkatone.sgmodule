@@ -5,7 +5,6 @@
 # 整理作者：https://github.com/LOWERTOP
 # 仓库地址：https://github.com/LOWERTOP/Shadowrocket-First
 # 反馈渠道：https://t.me/ShadowrocketApp
-#!arguments=Proxy:🇺🇸美国
 
 [Rule]
 # 以下为该软件部分去广告规则
@@ -73,8 +72,8 @@ DOMAIN-SUFFIX,wv.inner-active.mobi,REJECT-DROP
 DOMAIN-SUFFIX,www.googletagservices-cn.com,REJECT-DROP
 
 # 以下为该软件可能需要走代理的规则
-DOMAIN-SUFFIX,tktn.at,{{{Proxy}}}
-DOMAIN-SUFFIX,tktn.be,{{{Proxy}}}
+DOMAIN-SUFFIX,tktn.at,自动选择
+DOMAIN-SUFFIX,tktn.be,自动选择
 
 # 以下为该软件可能需要走直连的规则
 DOMAIN-SUFFIX,agkn.com,DIRECT
